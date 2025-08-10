@@ -9,7 +9,6 @@ web/app/uploads/*
 web/app/cache/*
 
 !web/app/plugins/ollie-pro
-!web/app/themes/ollie
 
 # WordPress
 web/wp
