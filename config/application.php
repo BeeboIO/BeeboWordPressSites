@@ -154,6 +154,12 @@ Config::define('SITE_ID_CURRENT_SITE', env('SITE_ID_CURRENT_SITE') ?: 1);
 Config::define('BLOG_ID_CURRENT_SITE', env('BLOG_ID_CURRENT_SITE') ?: 1);
 
 /**
+ * Ollie
+ */
+Config::define('OLLIE_EMAIL', env('OLLIE_EMAIL'));
+Config::define('OLLIE_PASSWORD', env('OLLIE_PASSWORD'));
+
+/**
  * Allow WordPress to detect HTTPS when used behind a reverse proxy or a load balancer
  * See https://codex.wordpress.org/Function_Reference/is_ssl#Notes
  */
