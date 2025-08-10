@@ -8,6 +8,9 @@ web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
 
+!web/app/plugins/ollie-pro
+!web/app/themes/ollie
+
 # WordPress
 web/wp
 web/.htaccess
