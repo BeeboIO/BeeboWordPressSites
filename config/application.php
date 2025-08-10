@@ -145,8 +145,8 @@ ini_set('display_errors', '0');
 /**
  * Multsite
  */
-Config::define('WP_ALLOW_MULTISITE', true);
-Config::define('MULTISITE', true);
+Config::define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE'), false);
+Config::define('MULTISITE', env('MULTISITE'), false);
 Config::define('SUBDOMAIN_INSTALL', true);
 Config::define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE'));
 Config::define('PATH_CURRENT_SITE', env('PATH_CURRENT_SITE') ?: '/');
