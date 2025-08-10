@@ -5,10 +5,9 @@ web/app/mu-plugins/*/
 web/app/themes/twentytwentyfive/
 web/app/upgrade
 web/app/uploads/*
-!web/app/uploads/.gitkeep
 web/app/cache/*
 
-!web/app/plugins/ollie-pro
+!web/app/plugins/ollie-prols
 
 # WordPress
 web/wp
