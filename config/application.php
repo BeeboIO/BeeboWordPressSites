@@ -113,10 +113,10 @@ if (env('DATABASE_URL')) {
  * SMTP
  */
 Config::define('SMTP_HOST', env('SMTP_HOST'), 'sandbox.smtp.mailtrap.io');
-Config::define('SMTP_PORT', env('SMTP_AUTH'), true);
-Config::define('SMTP_USER', env('SMTP_PORT'), 587);
-Config::define('SMTP_PASSWORD', env('SMTP_USERNAME'), 'api');
-Config::define('SMTP_SECURE', env('SMTP_PASSWORD'));
+Config::define('SMTP_AUTH', env('SMTP_AUTH'), true);
+Config::define('SMTP_PORT', env('SMTP_PORT'), 587);
+Config::define('SMTP_USERNAME', env('SMTP_USERNAME'), 'api');
+Config::define('SMTP_PASSWORD', env('SMTP_PASSWORD'));
 
 /**
  * Authentication Unique Keys and Salts
