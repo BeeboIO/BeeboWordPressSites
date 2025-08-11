@@ -6,7 +6,12 @@ web/app/upgrade
 web/app/uploads/*
 web/app/cache/*
 
-!web/app/plugins/ollie-prols
+!web/app/plugins/ollie-pro
+!web/app/plugins/block-visibility
+!web/app/plugins/create-block-theme
+!web/app/plugins/advanced-query-loop
+!web/app/plugins/custom-post-type-ui
+!web/app/plugins/icon-block
 
 # WordPress
 web/wp
