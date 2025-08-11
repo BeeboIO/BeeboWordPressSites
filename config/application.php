@@ -54,15 +54,16 @@ if (file_exists($root_dir . '/.env')) {
     }
 }
 
-\Sentry\init([
-  'dsn' => env('SENTRY_DSN'),
-]);
-
 /**
  * Set up our global environment constant and load its config first
  * Default: production
  */
 define('WP_ENV', env('WP_ENV') ?: 'production');
+
+\Sentry\init([
+    'dsn' => env('SENTRY_DSN'),
+    'environment' => WP_ENV,
+]);
 
 /**
  * Infer WP_ENVIRONMENT_TYPE based on WP_ENV
