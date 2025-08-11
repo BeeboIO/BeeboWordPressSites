@@ -54,6 +54,10 @@ if (file_exists($root_dir . '/.env')) {
     }
 }
 
+\Sentry\init([
+  'dsn' => env('SENTRY_DSN'),
+]);
+
 /**
  * Set up our global environment constant and load its config first
  * Default: production
