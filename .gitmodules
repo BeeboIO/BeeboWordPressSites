@@ -1,0 +1,3 @@
+[submodule "web/app/plugins/beebo-wordpress-server"]
+	path = web/app/plugins/beebo-wordpress-server
+	url = https://collegeman@github.com/BeeboIO/BeeboWordPressServer
