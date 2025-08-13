@@ -1,0 +1,3 @@
+[submodule "web/app/plugins/beebo-wordpress-server"]
+	path = web/app/plugins/beebo-wordpress-server
+	url = git@github.com:BeeboIO/BeeboWordPressServer.git

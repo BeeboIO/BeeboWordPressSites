@@ -12,6 +12,7 @@ web/app/cache/*
 !web/app/plugins/advanced-query-loop
 !web/app/plugins/custom-post-type-ui
 !web/app/plugins/icon-block
+!web/app/plugins/beebo-wordpress-server
 
 # WordPress
 web/wp
