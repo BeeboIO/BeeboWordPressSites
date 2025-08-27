@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b769e1c183e4a80e6c0afba387cc5860",
+    "content-hash": "e527cfaa4fc3fe07cac2ade05e581b37",
     "packages": [
         {
             "name": "composer/installers",
@@ -1724,6 +1724,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-site-kit/"
+        },
+        {
+            "name": "wpackagist-plugin/printful-shipping-for-woocommerce",
+            "version": "2.2.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/printful-shipping-for-woocommerce/",
+                "reference": "tags/2.2.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/printful-shipping-for-woocommerce.2.2.11.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/printful-shipping-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
