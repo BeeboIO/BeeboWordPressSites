@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb564c889465fa38323c9d89df76e73a",
+    "content-hash": "c14543ac3c60625368ef11600195cafc",
     "packages": [
         {
             "name": "composer/installers",
@@ -1742,6 +1742,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/printful-shipping-for-woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/stripe-tax-for-woocommerce",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stripe-tax-for-woocommerce/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stripe-tax-for-woocommerce.1.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stripe-tax-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
