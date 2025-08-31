@@ -47,7 +47,8 @@
     "wpackagist-plugin/google-site-kit": "1.159.0",
     "wpackagist-plugin/printful-shipping-for-woocommerce": "2.2.11",
     "wpackagist-plugin/woocommerce-payments": "9.8.0",
-    "wpackagist-plugin/stripe-tax-for-woocommerce": "1.2.1"
+    "wpackagist-plugin/stripe-tax-for-woocommerce": "1.2.1",
+    "wpackagist-plugin/duplicate-post": "^4.5"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
